@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color:cadetblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.car img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.car-item {
+    width: calc(20% - 10px);
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.car-item a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.car-item h3 {
+    margin-top: 0;
+}
+.car-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.car-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+i{
+    text-align: center;
+    color: red;
+}
